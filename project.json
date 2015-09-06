@@ -4,14 +4,11 @@
 	"category":"Yamuna Monsoon Flooding 2013",
 	"description":"Geotag locations of Yamuna Flooding photos.",
 	"why":"This project helps geotag photos of the Yamuna monsoon flooding in 2013 so they can be displayed on a map.",
-	"questions":[
+	"questionnaire":[
 		{
-			"id":1,
-			"title":"Can you geo-localize the photo?",
-			"type":"geotagging",
-			"answer":{
-				"saved_as":"latlancoords"
-			}
+			"question":"Can you geo-localize the photo?",
+			"key":"latlancoords",
+			"type":"geotagging"
 		}
 	]
 }
